@@ -6,20 +6,31 @@ export default function CallToAction() {
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
             Boost your security
             <br />
-            Start using our app today.
+            Start using our API today.
           </h2>
-          <p className="text-viking-200 mx-auto mt-6 max-w-xl text-lg leading-8">
-            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-            anim id veniam aliqua proident excepteur commodo do ea.
+          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-viking-200">
+            Want to learn more about our API? Check out our documentation to get
+            started. Interested in intergrating your api into our system? Got
+            Questions? Email us at{' '}
+            <a
+              href="mailto:team@phish.directory"
+              className="text-viking-200 hover:text-viking-100"
+            >
+              team@phish.directory
+            </a>
+            .
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="#"
-              className="text-viking-600 hover:bg-viking-50 rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              href="https://api.phish.directory/docs/#/User/post_user_signup"
+              className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-viking-600 shadow-sm hover:bg-viking-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               Get started
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <a
+              href="https://api.phish.directory/docs"
+              className="text-sm font-semibold leading-6 text-white"
+            >
               Learn more <span aria-hidden="true">→</span>
             </a>
           </div>
